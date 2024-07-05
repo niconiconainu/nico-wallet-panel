@@ -1,2 +1,1 @@
-import WalletPanel from './src/WalletPanel';
-export { WalletPanel };
+export { default as WalletPanel } from './src/WalletPanel';
