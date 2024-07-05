@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import WalletPanel from '../WalletPanel';
 import { dummyTokens } from '../dummy/dummyTokens';
+import { dummyAddress } from '../dummy/dummyAddress';
 
 const meta: Meta<typeof WalletPanel> = {
   title: 'WalletPanel',
@@ -28,7 +29,7 @@ export const StoryComponent: Story = {
 export const Address: Story = {
   ...Template,
   args: {
-    address: '0xD10.....45353D',
+    address: dummyAddress,
   },
 };
 
